@@ -1,6 +1,6 @@
-# Proyecto Prueba Técnica - Ionic - Angular - Sass
+# Proyecto de la Prueba Técnica - Ionic - Angular - Sass
 
-¡Bienvenido al proyecto de prueba técnica para el backend!
+¡Bienvenido al proyecto de la prueba técnica!
 
 ## Descripción
 
