@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Listado de Superhéroes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-list lines="full">
+  <a
+    *ngFor="let superhero of superheroes"
+    [routerLink]="['/superhero-detail', superhero.id]"
+  >
+    <ion-item>
+      <ion-avatar slot="start">
+        <img
+          [src]="
+            superhero.thumbnail.path +
+            '/portrait_xlarge.' +
+            superhero.thumbnail.extension
+          "
+          alt="{{ superhero.name }}"
+        />
+      </ion-avatar>
+      <ion-label>{{ superhero.name }}</ion-label>
+    </ion-item>
+  </a>
+</ion-list>

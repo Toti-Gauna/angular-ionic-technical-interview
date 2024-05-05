@@ -1,0 +1,17 @@
+div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: gray;
+}
